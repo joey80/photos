@@ -1,5 +1,4 @@
-import Head from "next/head";
-import styles from "@/styles/Home.module.css";
+import Head from 'next/head';
 
 function Home() {
   return (
@@ -10,9 +9,9 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>Photos app coming soon</p>
+      <main>
+        <div>
+          <p className="text-3xl">Photos app coming soon</p>
         </div>
       </main>
     </>
