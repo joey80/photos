@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { IndexContainer } from '@/containers/Index';
+import { LoginContainer } from '@/containers/Login';
 
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
         <title>Photos | Joeyui.com</title>
       </Head>
       <main>
-        <IndexContainer />
+        <LoginContainer />
       </main>
     </>
   );
